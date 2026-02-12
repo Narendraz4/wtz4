@@ -1,0 +1,46 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Footer */
+header,
+footer {
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+/* Buttons */
+button {
+    background-color: lightseagreen;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+/* Textarea and input fields */
+textarea,
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
